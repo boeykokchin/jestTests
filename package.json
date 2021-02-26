@@ -1,0 +1,30 @@
+{
+  "name": "joanna",
+  "version": "1.0.0",
+  "description": "Automated test scripts for production systems.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jibrailidrisAV@bitbucket.org/apteamcode/joanna.git"
+  },
+  "author": "Jibrail Idris",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/apteamcode/joanna#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.1",
+    "html-dom-parser": "^1.0.0",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
